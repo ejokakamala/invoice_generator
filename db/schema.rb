@@ -10,8 +10,22 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 0) do
+ActiveRecord::Schema[7.1].define(version: 2024_05_09_065602) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "invoices", force: :cascade do |t|
+    t.string "name_of_business"
+    t.integer "postal_box"
+    t.string "location"
+    t.integer "phone"
+    t.string "name_of_invoice_generator"
+    t.text "address_of_invoice_generator"
+    t.integer "invoice_no"
+    t.date "invoice_date"
+    t.text "note"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
 end

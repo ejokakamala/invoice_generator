@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name_of_business: MyString
+  postal_box: 1
+  location: MyString
+  phone: 1
+  name_of_invoice_generator: MyString
+  address_of_invoice_generator: MyText
+  invoice_no: 1
+  invoice_date: 2024-05-09
+  description: MyText
+  quantity: 1
+  price_per_item: 1
+  total_price: 1
+
+two:
+  name_of_business: MyString
+  postal_box: 1
+  location: MyString
+  phone: 1
+  name_of_invoice_generator: MyString
+  address_of_invoice_generator: MyText
+  invoice_no: 1
+  invoice_date: 2024-05-09
+  description: MyText
+  quantity: 1
+  price_per_item: 1
+  total_price: 1
